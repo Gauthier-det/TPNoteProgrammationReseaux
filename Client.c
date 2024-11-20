@@ -5,7 +5,7 @@
 #include <arpa/inet.h>
 
 int main(int argc, char *argv[]) {
-    if (argc != 5) {
+    if (argc != 6) {
         fprintf(stderr, "Usage: %s <IP> <Port> <Nom> <Prenom> <Matiere>\n", argv[0]);
         exit(1);
     }
